@@ -1,0 +1,15 @@
+{
+  "name": "myql-hello",
+  "version": "0.1.0",
+  "description": "Example plugin: a server route and a client heading",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": "./src/index.js",
+  "sideEffects": false,
+  "files": [
+    "src"
+  ],
+  "peerDependencies": {
+    "@myql/server": "*"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "myql-extra",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": "./index.js",
+  "sideEffects": false,
+  "peerDependencies": {
+    "@myql/server": "*"
+  }
+}

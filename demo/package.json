@@ -1,0 +1,18 @@
+{
+  "name": "demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "myql start"
+  },
+  "dependencies": {
+    "@myql/client": "file:../packages/client",
+    "@myql/plugins": "file:../packages/plugins",
+    "@myql/server": "file:../packages/server",
+    "myql-hello": "file:../packages/hello"
+  },
+  "devDependencies": {
+    "myql": "file:../packages/myql"
+  }
+}

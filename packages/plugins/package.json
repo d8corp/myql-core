@@ -1,0 +1,15 @@
+{
+  "name": "@myql/plugins",
+  "version": "0.1.0",
+  "description": "Install and remove plugins from the UI",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": "./src/index.js",
+  "sideEffects": false,
+  "files": [
+    "src"
+  ],
+  "peerDependencies": {
+    "@myql/server": "*"
+  }
+}

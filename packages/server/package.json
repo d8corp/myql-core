@@ -1,0 +1,12 @@
+{
+  "name": "@myql/server",
+  "version": "0.1.0",
+  "description": "HTTP server, static files and the api registry",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": "./src/index.js",
+  "sideEffects": false,
+  "files": [
+    "src"
+  ]
+}

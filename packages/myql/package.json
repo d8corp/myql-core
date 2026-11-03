@@ -1,0 +1,19 @@
+{
+  "name": "myql",
+  "version": "0.1.0",
+  "description": "Plugin-based apps: package.json is the app",
+  "type": "module",
+  "bin": {
+    "myql": "./bin/myql.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "rolldown": "latest"
+  }
+}
